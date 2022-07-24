@@ -1,0 +1,5 @@
+main: fun.fifu.pocketdragon.PocketDragon
+version: 1.0
+name: PocketDragon
+author: NekokeCore
+api-version: 1.16
