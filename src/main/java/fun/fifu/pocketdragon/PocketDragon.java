@@ -82,6 +82,8 @@ public class PocketDragon extends JavaPlugin implements Listener {
                 } else {
                     player.sendMessage("请空手回收嗷");
                 }
+            } else {
+                player.sendMessage("这龙不是你的");
             }
         }
 
