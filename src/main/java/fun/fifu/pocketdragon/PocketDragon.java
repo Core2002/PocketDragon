@@ -63,7 +63,7 @@ public class PocketDragon extends JavaPlugin implements Listener {
             UUID owner = pl.getFactory().getOwner(dragon);
             if (!player.hasPermission("petdragon.bypass.remove") && !player.getUniqueId().equals(owner)) {
                 assert owner != null;
-                player.sendMessage("你无权收回该龙！");
+                player.sendMessage("你无权收回该龙！ 权限节点[petdragon.bypass.remove]");
                 return;
             }
             found = true;
