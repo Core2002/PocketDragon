@@ -17,6 +17,8 @@ repositories {
     maven { url 'https://crystal.lss233.com.aslf.top/repositories/minecraft' }
     maven { url 'https://lss233.com/artifactory/minecraft' }
     maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url "https://repository.alkaidmc.com/releases" }
+    maven { url "https://repository.alkaidmc.com/snapshots" }
 
     google()
 }
